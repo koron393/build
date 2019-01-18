@@ -839,28 +839,40 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
 
   system_progress = 0.75
 
-  script.Print("  ######## ##            ##                  ");
-  script.Print("  ##       ##            ##                  ")
-  script.Print("  ##       ##   ######   ##    ##   ######   ")
-  script.Print("  #####    ##  ##    ##  ##   ##   ##    ##  ")
-  script.Print("  ##       ##  ##    ##  ######    ##    ##  ")
-  script.Print("  ##       ##  ##    ##  ##   ##   ##    ##  ")
-  script.Print("  ##       ##   ######   ##    ##   ######   ")
+  script.Print("===============================================");
   script.Print(" ")
-  script.Print("           wiki.maud.io/floko/pie            ")
-  script.Print("==============================================");
+  script.Print("                     .oko.                     ")
+  script.Print("               .lo:..:XMX:..:ol.               ")
+  script.Print("         'c,    ,lk0kONMNOk0kl,    ,c'         ")
+  script.Print("    .... cXXc      'l0WMW0l'.     cXXc.....    ")
+  script.Print("    ,oxxdxKWK;       cNMNc       ;KWKxdxxo,    ")
+  script.Print("   .';lkXWWNX0dc,.   :XMX:   .,cd0XNWWXkl;'.   ")
+  script.Print("   ,ooolc:,'',coxkxdlkNMNxldxkxoc,.',:clooo,   ")
+  script.Print("                .,o0NWMMMWWKo,.                ")
+  script.Print("   ,ooolc:,'',coxkxdlkNMNxldxkxoc,.',;clooo,   ")
+  script.Print("   .';lkXWWNX0dc,.   cXMXc   .,cd0XNWWXko;'.   ")
+  script.Print("    ,oxxdxKWK;       cXMNc       ;KWKxdxxo,    ")
+  script.Print("    .'.  cXXc      'l0WMW0l'.     cXXc ....    ")
+  script.Print("         'c,    ,lk0kONMNOkOkl,    ,c'         ")
+  script.Print("               .lo:..:XMX:..:ol.               ")
+  script.Print("                     .oko.                     ")
+  script.Print(" ")
+  script.Print("                   f l o k o                   ")
+  script.Print(" ")
+  script.Print("            wiki.maud.io/floko/pie/            ")
+  script.Print("===============================================");
 
 
   build = target_info.GetBuildProp("ro.build.date")
-  script.Print("   Compiled: %s"%(build));
+  script.Print("    Compiled: %s"%(build));
 
   device = target_info.GetBuildProp("ro.product.device")
   if target_info.GetBuildProp("ro.product.model") is not None:
     model = target_info.GetBuildProp("ro.product.model")
     script.Print("   Device: %s (%s)"%(model, device));
   else:
-    script.Print("   Device: %s"%(device));
-  script.Print("==============================================");
+    script.Print("    Device: %s"%(device));
+  script.Print("===============================================");
 
   if OPTIONS.wipe_user_data:
     system_progress -= 0.1
