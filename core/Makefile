@@ -3237,7 +3237,7 @@ aicp: otapackage
 	@echo -e ""
 	@echo -e "                  F l o k o                  "
 	@echo -e ""
-	@echo -e "           wiki.maud.io/floko/pie/           "
+	@echo -e "            https://floko.maud.io            "
 	@echo -e ""
 	@echo -e "         - Based on AICP and GZOSP -         "
 	@echo -e ""

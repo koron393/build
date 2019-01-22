@@ -859,7 +859,7 @@ else if get_stage("%(bcb_dev)s") == "3/3" then
   script.Print(" ")
   script.Print("                   f l o k o                   ")
   script.Print(" ")
-  script.Print("            wiki.maud.io/floko/pie/            ")
+  script.Print("             https://floko.maud.io             ")
   script.Print("===============================================");
 
 
